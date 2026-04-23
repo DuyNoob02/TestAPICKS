@@ -23,7 +23,7 @@ const RESPONSES = {
   }
 };
 
-// ✅ THAY ĐỔI 1: dùng res.setHeader + res.end thay vì res.writeHead
+// dùng res.setHeader + res.end thay vì res.writeHead
 // vì Vercel dùng object res của Express-like, không phải Node http thuần
 function send(res, body, status = 200) {
   const json = JSON.stringify(body, null, 2);
@@ -35,7 +35,7 @@ function send(res, body, status = 200) {
   res.end(json);
 }
 
-// ✅ THAY ĐỔI 2: export default handler thay vì http.createServer + server.listen
+// export default handler thay vì http.createServer + server.listen
 export default async function handler(req, res) {
   const url = req.url.split('?')[0];
   const method = req.method;
