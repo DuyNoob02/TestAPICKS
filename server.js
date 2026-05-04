@@ -39,6 +39,11 @@ const RESPONSES = {
     sign: {
         status: 0,
         msg: "Ký số thành công"
+    },
+
+    patients: {
+        status: 0,
+        msg: "Danh sách bệnh nhân"
     }
 };
 
@@ -111,6 +116,12 @@ const server = http.createServer(async (req, res) => {
         return;
     }
 
+    // POST /api/patients
+    if (url === '/api/patients' && method === 'POST') {
+        send(res, RESPONSES.patients);
+        return;
+    }
+
     // 404
     send(res, { status: 1, msg: 'Route not found' }, 404);
 });
@@ -122,5 +133,6 @@ server.listen(PORT, () => {
     console.log(`  POST /api/documents`);
     console.log(`  POST /api/document/getstatus`);
     console.log(`  POST /api/document/sign`);
+    console.log(`  POST /api/patients`);
     console.log(`  GET  /health`);
 });
