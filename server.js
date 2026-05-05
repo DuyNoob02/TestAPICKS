@@ -17,7 +17,7 @@ const RESPONSES = {
                 documentName: "BangKeChiPhi.pdf",
                 documentKey: "DOC001",
                 documentType: "PDF",
-                createDate: "2026-04-01",
+                createDate: "03-05-2026",
                 signatureStatus: 1
             }
         ]
@@ -48,7 +48,7 @@ const RESPONSES = {
             {
                 patientCode: "BN001",
                 fullName: "Nguyễn Văn A",
-                birthday: "1980-01-01",
+                birthday: "01-01-1980",
                 gender: "Nam",
                 address: "Tp. HCM",
                 patientType: "DV",
@@ -56,7 +56,7 @@ const RESPONSES = {
                 treatmentRoom: "Phòng 101",
                 treatmentBed: "Giường 1",
                 identifyNumber: "123456789",
-                treatmentStartTime: "2026-04-01T08:00:00",
+                treatmentStartTime: "03-05-2026",
             }
         ]
     }
