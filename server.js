@@ -52,7 +52,7 @@ const RESPONSES = {
                 gender: "Nam",
                 address: "Tp. HCM",
                 patientType: "DV",
-                deparment: "Khoa Nội",
+                department: "Khoa Nội",
                 treatmentRoom: "Phòng 101",
                 treatmentBed: "Giường 1",
                 identifyNumber: "123456789",
