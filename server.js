@@ -13,7 +13,7 @@ const RESPONSES = {
         msg: null,
         data: [
             {
-                previewUrl: "https://www.w3.org/WAI/WCAG21/Techniques/pdf/sample.pdf",
+                previewUrl: "https://drive.google.com/file/d/1YJaoL7JKjo8_hgu7Ce1ULTdIqxwYItnR/view?usp=sharing",
                 documentName: "BangKeChiPhi.pdf",
                 documentKey: "DOC001",
                 documentType: "PDF",
@@ -29,7 +29,7 @@ const RESPONSES = {
             status: 0,
             msg: null,
             data: keys.map(k => ({
-                previewUrl: "https://www.w3.org/WAI/WCAG21/Techniques/pdf/sample.pdf",
+                previewUrl: "https://drive.google.com/file/d/1YJaoL7JKjo8_hgu7Ce1ULTdIqxwYItnR/view?usp=sharing",
                 documentKey: k,
                 status: 2,
             }))
