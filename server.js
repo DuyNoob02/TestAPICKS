@@ -43,7 +43,22 @@ const RESPONSES = {
 
     patients: {
         status: 0,
-        msg: "Danh sách bệnh nhân"
+        msg: "Danh sách bệnh nhân",
+        data: [
+            {
+                patientCode: "BN001",
+                fullName: "Nguyễn Văn A",
+                birthday: "1980-01-01",
+                gender: "Nam",
+                address: "Tp. HCM",
+                patientType: "DV",
+                deparment: "Khoa Nội",
+                treatmentRoom: "Phòng 101",
+                treatmentBed: "Giường 1",
+                identifyNumber: "123456789",
+                treatmentStartTime: "2026-04-01T08:00:00",
+            }
+        ]
     }
 };
 
