@@ -13,7 +13,7 @@ const RESPONSES = {
         msg: null,
         data: [
             {
-                previewUrl: "https://drive.google.com/file/d/1YJaoL7JKjo8_hgu7Ce1ULTdIqxwYItnR/view?usp=sharing",
+                previewUrl: "https://cdn.jsdelivr.net/gh/DuyNoob02/pdfs@main/BangKe.pdf",
                 documentName: "BangKeChiPhi.pdf",
                 documentKey: "DOC001",
                 documentType: "PDF",
@@ -29,7 +29,7 @@ const RESPONSES = {
             status: 0,
             msg: null,
             data: keys.map(k => ({
-                previewUrl: "https://drive.google.com/file/d/1YJaoL7JKjo8_hgu7Ce1ULTdIqxwYItnR/view?usp=sharing",
+                previewUrl: "https://cdn.jsdelivr.net/gh/DuyNoob02/pdfs@main/BangKe.pdf",
                 documentKey: k,
                 status: 2,
             }))
